@@ -34,7 +34,7 @@ public class Ui {
     public static void runApp() {
         Scanner scanner = new Scanner(System.in);
         PatientManager patientManager = new PatientManager();
-
+        patientManager.addPatientsByDefault();
         showMenu();
 
         int option = scanner.nextInt();
@@ -60,7 +60,7 @@ public class Ui {
                     patientManager.addPatientsByDefault();
                     break;
                 default:
-                    System.out.println("Invalid option. Please try again.");
+                    System.out.println("Seleccione una opcion valida. ");
             }
             showMenu();
             option = scanner.nextInt();
