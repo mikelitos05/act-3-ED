@@ -29,7 +29,7 @@ public class Ui {
 
             switch (opc) {
                 case 1:
-                    System.out.println("Introduce el numero de terminos de la serie de Fibonacci: ");
+                    System.out.print("Introduce el numero de terminos de la serie de Fibonacci: ");
                     int numero = scanner.nextInt();
                     scanner.nextLine();
                     fibonacci.FibonacciSerie(numero);
