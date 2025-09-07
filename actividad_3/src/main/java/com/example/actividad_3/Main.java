@@ -1,9 +1,13 @@
 package com.example.actividad_3;
-
-import com.example.actividad_3.ui.Ui;
+import com.example.actividad_3.ui.App;
 
 public class Main {
     public static void main(String[] args) {
-        Ui.runApp();
+        App app = new App();
+        app.runSudokuGUI();   // ← SOLO esto
     }
 }
+
+
+
+
